@@ -185,3 +185,29 @@ python run_optimization.py \
 ```
 
 After running, you'll get an optimized version of your script that produces output more closely matching the validation data.
+
+# Shell Command Agent
+
+This project implements an intelligent agent that can parse natural language instructions and convert them into shell commands. The agent uses the DeepSeek language model as its foundation and is built with the LangChain framework.
+
+## Features
+
+- Convert natural language requests to appropriate shell commands
+- Execute shell commands and display their output
+- Handle common tasks like printing directory trees
+
+## Setup
+
+1. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+
+2. Create a `.env` file with your DeepSeek API key:
+   ```
+   DEEPSEEK_API_KEY=your_api_key_here
+   ```
+
+## Usage
+
+Run the agent:

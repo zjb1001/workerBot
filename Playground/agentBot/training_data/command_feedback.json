@@ -1,0 +1,38 @@
+[
+  {
+    "timestamp": "2025-03-19T21:30:54.925174",
+    "user_request": "print all the files under the folder",
+    "generated_command": "ls -l",
+    "execution_result": "total 136\n-rw-r--r-- 1 page page  6706 Mar 19 19:54 README.md\ndrwxr-xr-x 2 page page  4096 Mar 19 21:30 __pycache__\n-rw-r--r-- 1 page page 16610 Mar 15 16:50 agent.py\n-rw-r--r-- 1 page page  2950 Mar 17 07:29 agentBot.py\n-rw-r--r-- 1 page page  2777 Mar 19 20:23 command_history.py\n-rw-r--r-- 1 page page  4372 Mar 15 16:22 config.py\n-rw-r--r-- 1 page page 13952 Mar 17 07:29 monitor_agent.py\n-rw-r--r-- 1 page page 10475 Mar 17 07:29 orchestrator.py\n-rw-r--r-- 1 page page   133 Mar 19 19:54 requirements.txt\n-rw-r--r-- 1 page page   251 Mar 19 19:42 run.sh\n-rw-r--r-- 1 page page  4766 Mar 17 07:29 run_optimization.py\n-rw-r--r-- 1 page page  1764 Mar 19 20:21 security_config.py\n-rw-r--r-- 1 page page 13711 Mar 19 21:29 shell_agent.py\n-rw-r--r-- 1 page page  1074 Mar 19 20:34 test_api.py\n-rw-r--r-- 1 page page 14892 Mar 19 21:29 training_agent.py\ndrwxr-xr-x 3 page page  4096 Mar 19 21:29 training_data\n",
+    "duration": 1.0,
+    "feedback": {
+      "rating": 5,
+      "correct_command": null,
+      "comments": ""
+    }
+  },
+  {
+    "timestamp": "2025-03-19T21:30:54.925174",
+    "user_request": "print all the files under the folder",
+    "generated_command": "ls -l",
+    "execution_result": "total 136\n-rw-r--r-- 1 page page  6706 Mar 19 19:54 README.md\ndrwxr-xr-x 2 page page  4096 Mar 19 21:30 __pycache__\n-rw-r--r-- 1 page page 16610 Mar 15 16:50 agent.py\n-rw-r--r-- 1 page page  2950 Mar 17 07:29 agentBot.py\n-rw-r--r-- 1 page page  2777 Mar 19 20:23 command_history.py\n-rw-r--r-- 1 page page  4372 Mar 15 16:22 config.py\n-rw-r--r-- 1 page page 13952 Mar 17 07:29 monitor_agent.py\n-rw-r--r-- 1 page page 10475 Mar 17 07:29 orchestrator.py\n-rw-r--r-- 1 page page   133 Mar 19 19:54 requirements.txt\n-rw-r--r-- 1 page page   251 Mar 19 19:42 run.sh\n-rw-r--r-- 1 page page  4766 Mar 17 07:29 run_optimization.py\n-rw-r--r-- 1 page page  1764 Mar 19 20:21 security_config.py\n-rw-r--r-- 1 page page 13711 Mar 19 21:29 shell_agent.py\n-rw-r--r-- 1 page page  1074 Mar 19 20:34 test_api.py\n-rw-r--r-- 1 page page 14892 Mar 19 21:29 training_agent.py\ndrwxr-xr-x 3 page page  4096 Mar 19 21:29 training_data\n",
+    "duration": 1.0,
+    "feedback": {
+      "rating": 5,
+      "correct_command": null,
+      "comments": ""
+    }
+  },
+  {
+    "timestamp": "2025-03-19T21:32:32.381779",
+    "user_request": "find all the files which name contain agent",
+    "generated_command": "find *agent*",
+    "execution_result": "agent.py\nagentBot.py\nmonitor_agent.py\nshell_agent.py\ntraining_agent.py\n",
+    "duration": 1.0,
+    "feedback": {
+      "rating": 5,
+      "correct_command": null,
+      "comments": "find mostly with find command"
+    }
+  }
+]
